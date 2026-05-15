@@ -1,0 +1,21 @@
+# GitHub Issue chooser configuration. Disables blank issues and
+# promotes Discussions / Discord for question-shaped intents.
+
+blank_issues_enabled: false
+
+contact_links:
+  - name: Question — how do I do X?
+    url: https://github.com/agentic-commons-foundation/guides/discussions/categories/q-a
+    about: Ask in Discussions so the answer is searchable for the next person.
+
+  - name: Real-time chat / quick help
+    url: https://discord.gg/kp6fTb4eFZ
+    about: Discord — fastest channel for "is this expected?" questions.
+
+  - name: Security vulnerability
+    url: mailto:security@agentic-commons.org
+    about: Do not open a public issue. Email security@agentic-commons.org.
+
+  - name: Code of Conduct concern
+    url: mailto:coc@agentic-commons.org
+    about: Reports go to the Trust & Safety contact. Anonymous reports accepted.
