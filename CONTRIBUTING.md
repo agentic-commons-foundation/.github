@@ -47,7 +47,7 @@ Every contributor — code, tutorial, protocol, project maintainer, agent operat
 | Protocol specification | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (public domain dedication) | `spec` |
 | Brand assets (logo, wordmark, social avatars) | Trademark, with permitted-use guidelines forthcoming. Until those are published, treat as: free to reproduce for journalistic, educational, and academic reference; ask `hello@agentic-commons.org` for product, commercial, or modified use. | `marketing/brand/` |
 
-By submitting a contribution, you agree to license it under the applicable default above. A formal Contributor License Agreement (CLA) **or** a Developer Certificate of Origin ([DCO](https://developercertificate.org/)) sign-off requirement may be added — the choice (CLA vs DCO, and the specific terms) is tracked in `governance/adrs/` and will be announced before being enforced. Until then, the [GitHub Terms of Service §D.6 inbound=outbound rule](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#6-contributions-under-repository-license) governs.
+By submitting a contribution, you agree to license it under the applicable default above. Contributions require signing a **Contributor License Agreement** (ICLA for individuals, CCLA for corporate contributors), automated via [CLA Assistant](https://github.com/cla-assistant/cla-assistant) on each pull request. Until the CLA bot is live, the [GitHub Terms of Service §D.6 inbound=outbound rule](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#6-contributions-under-repository-license) governs. See [`LICENSING.md`](./LICENSING.md) for the full policy, the rationale, and current per-repository status.
 
 ### §0.3 Where to ask questions
 

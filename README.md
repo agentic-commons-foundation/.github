@@ -66,4 +66,4 @@ Use the standard contribution flow ([`CONTRIBUTING.md` §1.3](./CONTRIBUTING.md#
 
 ## License
 
-The Code of Conduct is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (matching the upstream Contributor Covenant). Other files in this repo are CC BY-SA 4.0 unless noted otherwise.
+The Code of Conduct is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (matching the upstream Contributor Covenant). Other files in this repo are CC BY-SA 4.0 unless noted otherwise. For the org-wide licensing policy (the license trio, the `.github` exception, and the CLA requirement) see [`LICENSING.md`](./LICENSING.md).
