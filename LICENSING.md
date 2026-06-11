@@ -34,9 +34,15 @@ Until the CLA bot is live, the [GitHub Terms of Service §D.6 inbound=outbound r
 | [`guides`](https://github.com/agentic-commons-foundation/guides) | Documentation | CC BY-SA 4.0 | ✅ Aligned |
 | [`.github`](https://github.com/agentic-commons-foundation/.github) | Community files | CC BY 4.0 | ✅ Aligned (§2 exception) |
 | [`musicbrainz-bot`](https://github.com/agentic-commons-foundation/musicbrainz-bot) | Source code | MIT → Apache 2.0 | 🔄 Migrating |
-| [`openlibrary-bots`](https://github.com/agentic-commons-foundation/openlibrary-bots) | Source code (fork) | Unresolved | ⏳ Under review (upstream `openlibrary-client` license) |
+| [`openlibrary-bots`](https://github.com/agentic-commons-foundation/openlibrary-bots) | Source code (fork) | AGPL-3.0 (upstream) | ✅ Documented exception (see below) |
 
 **New repositories** adopt the trio default for their class from creation: code → Apache 2.0, documentation → CC BY-SA 4.0, protocol → CC0 1.0. Forks inherit upstream license constraints and are evaluated case by case before any relicensing.
+
+### Fork exception: `openlibrary-bots`
+
+[`openlibrary-bots`](https://github.com/agentic-commons-foundation/openlibrary-bots) is a fork of [`internetarchive/openlibrary-bots`](https://github.com/internetarchive/openlibrary-bots), which is licensed **GNU AGPL-3.0**. AGPL-3.0 is a strong (network) copyleft license, so the fork **must remain AGPL-3.0** — it cannot be relicensed to Apache 2.0 without the consent of every upstream copyright holder. Any modifications we publish on top of it are likewise AGPL-3.0. This is the intended behavior of the policy's "forks inherit upstream constraints" rule, not a violation of the code = Apache 2.0 default, which applies to original work.
+
+This fork is **kept intentionally** — it is the staging ground for upstream bot-script contributions to Open Library (per [Open Library's bot process](https://docs.openlibrary.org/2_Developers/3_Backend/Writing-Bots.html), bots are submitted as pull requests to `openlibrary-bots`), and keeping it under the org reflects our support for and participation in the Open Library project. It is not org-original work and carries no Apache-2.0 expectation.
 
 ## 5. Changing this policy
 
